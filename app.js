@@ -54,6 +54,10 @@ document.querySelector(".btn-hold").addEventListener("click",()=>{
 })
 
 
+document.querySelector(".btn-new").addEventListener("click",()=>{
+    location.reload();
+})
+
 function nextPlayer(){
     
     document.querySelector(`#score-${activeplayer}`).textContent = scores[activeplayer];
