@@ -45,7 +45,23 @@ body {
     padding: 100px;
 }
 
+.final-score{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: "Lato";
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
 
+.final-score:focus{
+    outline: none;
+}
 
 /**********************************************
 *** PLAYERS
@@ -166,6 +182,13 @@ i {
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.dice-1{
+    top: 120px;
+}
+
+.dice-2{
+    top: 250px;
 }
 
 .winner {
